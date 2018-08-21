@@ -10,6 +10,15 @@ Run the script and follow the assistant:
 
 Once it ends, you can run it again to add more users, remove some of them or even completely uninstall OpenVPN.
 
+### Email the config file
+
+`apt install mailutils`
+`echo "here is your key" |mail -s "Here is your key"  recipient@example.com  -A client.ovpn`
+
+### Install OpenVPN Connect
+
+https://itunes.apple.com/us/app/openvpn-connect/id590379981?mt=8
+
 ### I want to run my own VPN but don't have a server for that
 You can get a little VPS from just $1/month at [VirMach](https://billing.virmach.com/aff.php?aff=4109&url=billing.virmach.com/cart.php?gid=1).
 
