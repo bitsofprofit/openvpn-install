@@ -13,6 +13,7 @@ Once it ends, you can run it again to add more users, remove some of them or eve
 ### Email the config file
 
 `apt install mailutils`
+
 `echo "here is your key" |mail -s "Here is your key"  recipient@example.com  -A client.ovpn`
 
 ### Install OpenVPN Connect
